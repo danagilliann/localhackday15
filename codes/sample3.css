@@ -1,0 +1,21 @@
+div { 
+	padding: 10px;
+	width: 500px;
+	height: 500px;
+
+	animation: foo 5s infinite;
+}
+
+@keyframes foo { 
+	0% { 
+		background-color: azure;
+	}
+
+	50% { 
+		background-color: black;
+	}
+
+	100% { 
+		background-color: #205E00;
+	}
+}

@@ -1,0 +1,65 @@
+div { 
+	padding: 10px;
+	width: 500px;
+	height: 500px;
+	background-color: black;
+
+	position: relative;
+	-webkit-animation: foo 5s infinite;	
+	animation: foo 5s infinite;
+}
+
+@-webkit-keyframes foo { 
+	0% { 
+		left: 20px;
+		transform: skewY(0deg);
+	}
+
+	25% { 
+		left: 50px;
+		transform: skewY(10.5deg);
+	}
+
+	50% { 
+		left: 80px;
+		transform: skewY(7.5deg);
+	}
+
+	75% { 
+		left: 30px;
+		transform: skewY(20.5deg);
+	}
+
+	100% { 
+		left: 10px;
+		transform: skewY(30.5deg);
+	}
+}
+
+
+@keyframes foo { 
+	0% { 
+		left: 20px;
+		transform: skewY(0deg);
+	}
+
+	25% { 
+		left: 50px;
+		transform: skewY(10.5deg);
+	}
+
+	50% { 
+		left: 80px;
+		transform: skewY(7.5deg);
+	}
+
+	75% { 
+		left: 30px;
+		transform: skewY(20.5deg);
+	}
+
+	100% { 
+		left: 10px;
+		transform: skewY(30.5deg);
+	}
+}
